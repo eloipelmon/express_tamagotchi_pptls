@@ -1,0 +1,49 @@
+.home-header {
+    text-align: center;
+    padding: 60px;
+}
+
+.home-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #8bc34a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #689f38;
+}
+
+.fa-paw,
+.fa-hand-rock {
+    margin-right: 20px;
+    font-size: 2.5rem;
+}
